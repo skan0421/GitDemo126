@@ -27,8 +27,9 @@ public class Test1 {
 		                grade = 'C';
 		                break;
 		            case 6:
-		                grade = 'D';
+		                grade = 'D'; 
 		                break;
+		                
 		            default:
 		                grade = 'F';
 		        }
