@@ -16,6 +16,7 @@ public class Test1 {
 		    if (score < 0 || score > 100) {
 		        System.out.println(score + " 잘못된 점수입니다.");
 		    } else {
+		    	//ㅗㅇㅇㄴㅇㅈㅇ
 		        char grade;
 		        switch (score / 10) {
 		            case 10:
