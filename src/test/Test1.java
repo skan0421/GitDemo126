@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Test1 {
 	public static void main(String[] args) {
+		
+		String branch_name = "BranchS";
 
 		Scanner sc = new Scanner(System.in);
 		try {
@@ -14,6 +16,7 @@ public class Test1 {
 		    if (score < 0 || score > 100) {
 		        System.out.println(score + " 잘못된 점수입니다.");
 		    } else {
+		    	//ㅗㅇㅇㄴㅇㅈㅇ
 		        char grade;
 		        switch (score / 10) {
 		            case 10:
@@ -39,5 +42,7 @@ public class Test1 {
 		} finally {
 		    sc.close();
 		}
+		
+		System.out.println("Branch_Name = " + branch_name);
 	}
 }
