@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Test1 {
 	public static void main(String[] args) {
+		
+		String branch_name = "BranchS";
 
 		Scanner sc = new Scanner(System.in);
 		try {
@@ -39,5 +41,7 @@ public class Test1 {
 		} finally {
 		    sc.close();
 		}
+		
+		System.out.println("Branch_Name = " + branch_name);
 	}
 }
